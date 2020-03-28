@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(245, 245, 245);
+    font-family: 'Nova Mono', monospace;
+    padding-top: 5vh;
+}
+.container{
+    background-color: #100E17;
+    border-radius: 30px;
+    border-color: #363636;
+    border-width: 0.5rem;
+    border-style: solid;
+    width: 50.5vw;
+    margin: auto;
+}
+#clock-face{
+    color: #cc0000;
+    font-size: 10.5vw;
+    text-align: center;
+}
