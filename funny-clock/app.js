@@ -39,7 +39,7 @@ var wang;
 
 // if no remainder of 10, then console.log fanny, else console.log cock
 
-setInterval(seconds,500); //trying to get teh value of "seconds" var to update every .5 seconds
+setInterval(seconds,500); //trying to get the value of "seconds" var to update every .5 seconds
 
 function tester() { 
     if(seconds % 10 == 0){
@@ -51,6 +51,6 @@ function tester() {
     console.log(wang)
 }
 
-    setInterval(tester,1000); //run the function every second to check if second is divisable by 10
+    setInterval(tester,1000); //run the function every second to console.log the new result.
 
     //at the moment this function will console.log fanny or cock every second, but only based on the very first time it's run (I think), so it keeps running every second but always only with the initial result, it doesn't change between cock or fanny depending on the value of the "seconds" var.
