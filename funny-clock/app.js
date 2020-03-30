@@ -25,23 +25,28 @@ function showtime(){
 
 showtime(); 
 
-// grab the hour, minute and second
+//! FUNNY CLOCK SCRIPT BELOW THIS LINE !//
 
-var date = new Date();
-
-var hours = date.getHours();
-
-var minutes = date.getMinutes();
-
-var seconds = date.getSeconds();
+var hours;
+var minutes;
+var seconds;
 
 var wang;
 
-// if no remainder of 10, then console.log fanny, else console.log cock
+function updateClock(){
+    let date=new Date();
 
-setInterval(seconds,500); //trying to get the value of "seconds" var to update every .5 seconds
+    hours=date.getHours();
+    minutes=date.getMinutes();
+    seconds=date.getSeconds();
+}
+
+setInterval(updateClock,1000);
+
+updateClock();
 
 function tester() { 
+  
     if(seconds % 10 == 0){
     wang = "fanny"; 
 }
@@ -51,6 +56,4 @@ function tester() {
     console.log(wang)
 }
 
-    setInterval(tester,1000); //run the function every second to console.log the new result.
-
-    //at the moment this function will console.log fanny or cock every second, but only based on the very first time it's run (I think), so it keeps running every second but always only with the initial result, it doesn't change between cock or fanny depending on the value of the "seconds" var.
+    setInterval(tester,1000);
