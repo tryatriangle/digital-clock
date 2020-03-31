@@ -31,8 +31,6 @@ var hours;
 var minutes;
 var seconds;
 
-var wang;
-
 function updateClock(){
     var date=new Date();
 
@@ -45,9 +43,7 @@ setInterval(updateClock,1000);
 
 updateClock();
 
-//separation of functions
-
-// randomJoke chooses a random joke from the joke array and checks whether it should every second.
+// function jokeSelector chooses a joke from the joke array (chosen randomly from the number of jokes in the array) and checks whether it should send anything to the div .
 
 function jokeSelector(){
 
@@ -56,15 +52,12 @@ function jokeSelector(){
     var randomJoke = jokes[Math.floor(Math.random()*jokes.length)];
 
     if(seconds % 10 ==0) {
-        console.log(randomJoke);
+        document.getElementById("joke").innerText = randomJoke;
+        document.getElementById("joke").textContent = randomJoke;
     }
 }
 
     setInterval(jokeSelector,1000);
-
-// now I want to pass the value of jokeSelector into the var oneLiner and send that to a div element.
-
-    var oneLiner = jokeSelector;
 
 /*
 
