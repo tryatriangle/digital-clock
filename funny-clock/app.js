@@ -25,7 +25,7 @@ function showtime(){
 
 showtime(); 
 
-//! FUNNY CLOCK SCRIPT BELOW THIS LINE !//
+// FUNNY CLOCK SCRIPT BELOW THIS LINE 
 
 var hours;
 var minutes;
@@ -34,7 +34,7 @@ var seconds;
 var wang;
 
 function updateClock(){
-    let date=new Date();
+    var date=new Date();
 
     hours=date.getHours();
     minutes=date.getMinutes();
@@ -45,15 +45,30 @@ setInterval(updateClock,1000);
 
 updateClock();
 
-function tester() { 
-  
-    if(seconds % 10 == 0){
-    wang = "fanny"; 
-}
-    else {
-    wang = "cock";
+//separation of functions
+
+// random joke selector
+
+function jokeSelector(){
+
+    var jokes = ["Yo momma so fat","Yo momma so ugly","Yo momma so stupid"];
+
+    var randomJoke = jokes[Math.floor(Math.random()*jokes.length)];
+
+    if(seconds % 10 ==0) {
+        console.log(randomJoke);
     }
-    console.log(wang)
 }
 
-    setInterval(tester,1000);
+    setInterval(jokeSelector,1000);
+
+    var oneLiner = jokeSelector;
+
+/*
+
+Yo momma so fat, I took a picture of her last Christmas and it's still printing.
+Yo momma so ugly when she tried to join an ugly contest they said sorry, no professionals.
+Yo momma so stupid, she put two quarters in her ears and thought she was listening to 50 Cent.
+
+
+*/
