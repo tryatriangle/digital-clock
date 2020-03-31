@@ -47,9 +47,9 @@ updateClock();
 
 function jokeSelector(){
 
-    var jokes = ["Yo momma so fat","Yo momma so ugly","Yo momma so stupid"];
+    var jokes = ["Yo mamma so dumb she failed a blood test.","Yo mamma so ugly when she tried to join an ugly contest they said sorry, no professionals.","Yo mamma so dumb that if she spoke her mind she would be speechless.","Yo mamma is so stupid she sits on the TV and watches the couch"];
 
-    var randomJoke = jokes[Math.floor(Math.random()*jokes.length)];
+    var randomJoke = "\"" + jokes[Math.floor(Math.random()*jokes.length)] + "\"";
 
     if(seconds % 10 ==0) {
         document.getElementById("joke").innerText = randomJoke;
@@ -59,11 +59,3 @@ function jokeSelector(){
 
     setInterval(jokeSelector,1000);
 
-/*
-
-Yo momma so fat, I took a picture of her last Christmas and it's still printing.
-Yo momma so ugly when she tried to join an ugly contest they said sorry, no professionals.
-Yo momma so stupid, she put two quarters in her ears and thought she was listening to 50 Cent.
-
-
-*/

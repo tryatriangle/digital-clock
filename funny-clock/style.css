@@ -17,9 +17,26 @@ body {
     font-size: 10.5vw;
     text-align: center;
 }
-.joke-container {
-
+.phil-explainer{
+    padding-top: 50px;
+    font-weight: bold;
 }
+.joke-container {
+    background: #9fbbcc;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    width: 30vw;
+    position: absolute;
+    text-align: center;
+}
+
 #joke{
     
+}
+.phil-image-container {
+    padding-top: 50px;
+    text-align: center;
+}
+.phil-image {
+    width:95vw;
 }
