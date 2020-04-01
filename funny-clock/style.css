@@ -17,62 +17,45 @@ body {
     font-size: 10.5vw;
     text-align: center;
 }
-.phil-explainer{
-    padding-top: 50px;
-    font-weight: bold;
+.spacer{
+    height: 50px;
 }
-.joke-container {
-    background: #9fbbcc;
-    border-radius: 4px;
-    font-size: 1.2rem;
-    width: 30vw;
-    position: absolute;
-    text-align: center;
-}
-
-#joke{
-    
-}
-.phil-image-container {
-    padding-top: 50px;
-    text-align: center;
-}
-.phil-image {
-    width:95vw;
-}
-
-/* example.html */
-
 .big-container{
     position: relative;
 }
-
-.top-text{
+.phil-explainer{
     background-color: #e3e6e1;
-    width: 25vw;
-    font-size: 2vw;
-    padding: 20px;
+    width: 55vw;
+    font-size: 1.5vw;
+    padding: 10px;
+    border-radius: 5px;
+    border: black;
+    border-style: solid;
+    border-width: 2px;
 
     position: absolute;
     float: left;
     left: 0px;
     top:0px;
-
+    
 }
-.phil-photo {
-    width:95vw;
-}
-
-.speech-div{
+.joke-container {
     background-color: #e3e6e1;
     text-align: center;
     font-size: 1.5vw;
     padding: 10px;
     width: 30vw;
     border-radius: 0.7vw;
+    border: black;
+    border-style: solid;
+    border-width: 2px;
     
     position: absolute;
     float: bottom;
-    bottom: 30%;
+    bottom: 18%;
     left: 53vw;
+}
+.phil-image {
+    width:95vw;
+    border-radius: 15px;
 }

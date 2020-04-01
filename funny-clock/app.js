@@ -47,7 +47,7 @@ updateClock();
 
 function jokeSelector(){
 
-    var jokes = ["Yo mamma so dumb she failed a blood test.","Yo mamma so ugly when she tried to join an ugly contest they said sorry, no professionals.","Yo mamma so dumb that if she spoke her mind she would be speechless.","Yo mamma is so stupid she sits on the TV and watches the couch"];
+    var jokes = ["Your mother is so thick she failed a blood test.","Your mother is so ugly when she tried to join an ugly contest, they said \"sorry, no professionals\".","Your mother so brainless that if she spoke her mind she would be speechless.","Your mother is so stupid she sits on the TV and watches the sofa","Did you hear the one about the child with AIDS? It never gets old.", "What do Princess Dianna and Pink Floyd have in common? Their last big hit was the wall.", "How do you get a nun pregnant? Dress her up like an altar boy.", "How many potatoes does it take to kill an Irishman? None.", "EASILY identify who\'s constantly stinking out the office toilets by swapping the air-freshener for an air-horn.", "GREGGS STAFF. Shouting \"Yes, Chef!\" while sliding the steak bakes in the oven will give the shop a professional kitchen feel."];
 
     var randomJoke = "\"" + jokes[Math.floor(Math.random()*jokes.length)] + "\"";
 
@@ -58,20 +58,3 @@ function jokeSelector(){
 }
 
     setInterval(jokeSelector,1000);
-
-/*
-
-Did you hear about the child with AIDS? it never gets old.
-What do Princess Dianna and Pink Floyd have in common? Their last big hit was the wall.
-
-There once was a girl named Jill
-Who used a dynamite stick for a thrill
-They found her vagina
-In North Carolina
-And bits of her tits in Brazil
-
-How do you get a nun pregnant? Dress her up like an altar boy.
-Why does Stephen Hawking do one-liners? Because he can't do stand up.
-How many potatoes does it take to kill an Irishman? None.
-
-*/ 
