@@ -59,3 +59,19 @@ function jokeSelector(){
 
     setInterval(jokeSelector,1000);
 
+/*
+
+Did you hear about the child with AIDS? it never gets old.
+What do Princess Dianna and Pink Floyd have in common? Their last big hit was the wall.
+
+There once was a girl named Jill
+Who used a dynamite stick for a thrill
+They found her vagina
+In North Carolina
+And bits of her tits in Brazil
+
+How do you get a nun pregnant? Dress her up like an altar boy.
+Why does Stephen Hawking do one-liners? Because he can't do stand up.
+How many potatoes does it take to kill an Irishman? None.
+
+*/ 

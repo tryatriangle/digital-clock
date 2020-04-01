@@ -40,3 +40,39 @@ body {
 .phil-image {
     width:95vw;
 }
+
+/* example.html */
+
+.big-container{
+    position: relative;
+}
+
+.top-text{
+    background-color: #e3e6e1;
+    width: 25vw;
+    font-size: 2vw;
+    padding: 20px;
+
+    position: absolute;
+    float: left;
+    left: 0px;
+    top:0px;
+
+}
+.phil-photo {
+    width:95vw;
+}
+
+.speech-div{
+    background-color: #e3e6e1;
+    text-align: center;
+    font-size: 1.5vw;
+    padding: 10px;
+    width: 30vw;
+    border-radius: 0.7vw;
+    
+    position: absolute;
+    float: bottom;
+    bottom: 30%;
+    left: 53vw;
+}
