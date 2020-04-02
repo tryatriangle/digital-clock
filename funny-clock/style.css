@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(245, 245, 245);
+
     font-family: 'Nova Mono', monospace;
     padding-top: 5vh;
 }
@@ -17,8 +17,23 @@ body {
     font-size: 10.5vw;
     text-align: center;
 }
-.spacer{
-    height: 50px;
+.button-container{
+    height: 150px;
+    padding: 50px;
+    text-align: center;
+}
+.button{
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+
+    background-color: #e01818;
+    border-style: solid;
+    border: 8px solid #961010;
+    border-radius: 50%;
 }
 .big-container{
     position: relative;
