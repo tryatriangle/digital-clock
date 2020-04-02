@@ -35,7 +35,7 @@ body {
 
     position: absolute;
     float: left;
-    left: 0px;
+    left: 1.7vw;
     top:0px;
     
 }
@@ -52,8 +52,11 @@ body {
     
     position: absolute;
     float: bottom;
-    bottom: 18%;
-    left: 53vw;
+    top: 70%;
+    left: 55vw;
+}
+.phil-image-container {
+    text-align: center;
 }
 .phil-image {
     width:95vw;
