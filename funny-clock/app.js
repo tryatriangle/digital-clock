@@ -57,3 +57,12 @@ function jokeSelector(){
 }
 
     setInterval(jokeSelector,1000);
+
+/* start and stop buttons
+
+function stopClock() {
+    button-woke.onclick = clearTimeout
+
+}
+
+*/
